@@ -60,11 +60,11 @@ public class MainActivity extends AppCompatActivity {
         if (tipo == 0) {
             // Criando a lista de produtos com dados fixos
 
-            listaProdutos.add(new Produto("Arroz 5kg",     25.90));
-            listaProdutos.add(new Produto("Feijão 1kg",     9.50));
-            listaProdutos.add(new Produto("Macarrão 500g",  4.75));
-            listaProdutos.add(new Produto("Azeite 500ml",  32.00));
-            listaProdutos.add(new Produto("Café 500g",     18.90));
+            listaProdutos.add(new Produto("Arroz 5kg.",     25.90));
+            listaProdutos.add(new Produto("Feijão 1kg.",     9.50));
+            listaProdutos.add(new Produto("Macarrão 500g.",  4.75));
+            listaProdutos.add(new Produto("Azeite 500ml.",  32.00));
+            listaProdutos.add(new Produto("Café 500g.",     18.90));
 
             // Configurando o Adapter com o callback para atualizar o total
             ProdutoAdapter adapter = new ProdutoAdapter(listaProdutos, outListener -> {
